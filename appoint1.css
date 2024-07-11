@@ -1,0 +1,42 @@
+h1{
+    font-size: 44p;
+    color: rgb(0, 0, 0);
+   }
+   input{
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    text-align: 5px;
+   }
+   input:focus{
+    outline: none;
+   }
+   fieldset{
+    width: 50%;
+    height: 690px;
+    background-color: rgb(223, 222, 229);
+    border-radius: 5px;
+    outline: none;
+   }
+   table{
+    font-size: 22px;
+   }
+   td{
+    line-height: 50px;
+   }
+   input[type="submit"]{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(155, 170, 237);
+   }
+   input[type="submit"]:hover{
+    background-color: rgb(220, 202, 44);
+   }
+   input[type="reset"]{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(155, 170, 237);
+   }
+   input[type="reset"]:hover{
+    background-color: rgb(220, 202, 44);
+   }

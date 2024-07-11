@@ -1,0 +1,61 @@
+*{
+    width: auto;
+    height: auto;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(3, 3, 3, 0.5)50%,rgba(0,0,0,0.5)50%),url(law.png);
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+
+.icon{
+    width: 100%;
+    float: center;
+    height: 100px;
+    color: rgb(232, 186, 186);
+}
+
+.logo{
+    color: rgb(150, 215, 106);
+    font-size: 35px;
+    float: left;
+    font-family: Arial;
+    padding-left: 20px;
+    padding-top: 100px;
+}
+
+.menu{
+    color: rgb(0, 0, 0);
+    width: 500px;
+    float: left;
+    height: 100px;
+}
+
+ul{
+    font-size: 25px;
+    color: rgb(247, 247, 247);
+    background-color: rgba(33, 22, 22, 0.936);
+    float: right;
+    align-items: left;
+}
+
+.contact{
+    background: linear-gradient(rgba(3, 3, 3, 0.5)50%,rgba(0,0,0,0.5)50%),url(button.jpg);
+    font-size: 15px;
+    width: 200px;
+    display: inline-block;
+    height: 100px;
+    margin: 12px;
+    color: rgb(7, 21, 173);
+    
+}
+
+.par{
+    width: 420px;
+    height: 210px;
+    
+}

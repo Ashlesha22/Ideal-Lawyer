@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Appointment</title>
+  <link rel="stylesheet" href="book.css">
+  <script type="text/javascript">
+  function validate(){
+    var name = document.getElementById("name");
+    var email = document.getElementById("email");
+    var num = document.getElementById("num");
+    var reason = document.getElementById("reason");
+    if(name.value.trim() == "" || email.value.trim() == "" || num.value.trim() == "" || reason.value.trim() == ""){
+      alert("Please fill all the feilds");
+      return false;
+    }
+    else{
+return true;
+    }
+    if(num.value < 0 && num.value > 10){
+      alert("Please give valid contact number");
+      return false;
+    }
+  }
+  </script>
+</head>
+   <body>
+<div class="container-form">
+      <form action="message.html" onsubmit="return validate()">
+        <h2 class=" heading heading-yellow">Request an appointment</h2>
+        <div class="form-feild">
+          <p>Your name</p>
+          <input id="name" type="text" placeholder="Your name">
+        </div>
+        <div class="form-feild">
+          <p>Your e-mail</p>
+          <input id="email" type="email" placeholder="Your e-mail">
+        </div>
+        <div class="form-feild">
+          <p>Contact Number</p>
+          <input id="num" type="number" placeholder="Contact number">
+        </div>
+      <p>Reason for appointment</p>
+      <input id="reason" type="text">
+    </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+</div>
+  </body>
+</html>

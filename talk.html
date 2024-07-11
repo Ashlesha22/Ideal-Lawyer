@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Get information </title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="icon" href="bg.jpg" />
+	<link rel="stylesheet" href="talk.css" />
+</head>
+<div class="main">
+<body background="bg.jpg">
+	
+	<marquee class="css" behavior="up" direction="up" scrollamount="1"> This text scrolls from bottom to top.</marquee>
+	
+	<script src="js/jquery.js"> </script>
+    <script src="js/bootstrap.min.js"></script>
+	<button type="button" class="btn btn-primary position-relative" >
+		<span class="badge text-bg-dark"><a href="login.html">Want to consult a lawyer? Login/Complete the profile here.</a></span>
+		<span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger border border-light rounded-circle">
+		</span>
+	  </button>
+	<div id="container" class="container">
+		<div id="chat" class="chat">
+			<div id="messages" class="messages"></div>
+			<input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true" />
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="chat.js" ></script>
+<script type="text/javascript" src="talk.js" ></script>
+
+</html>

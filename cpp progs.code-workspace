@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../cpp progs"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cpp progs"
+	}
+}
